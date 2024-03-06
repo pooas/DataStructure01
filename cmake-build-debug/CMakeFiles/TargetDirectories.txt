@@ -1,0 +1,5 @@
+C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/DataStructure01.dir
+C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/DataStructure02.dir
+C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/DataStructure03.dir
+C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/rebuild_cache.dir

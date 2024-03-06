@@ -6,8 +6,9 @@ struct ab{
 };
 
 int main(){
-    char * a;
-    char* b;
+    //The size of pointer is independent of size of data types
+    int * a;
+    float* b;
     char* c;
     std::cout << sizeof(a) << std::endl;
     std::cout << sizeof(b) << std::endl;

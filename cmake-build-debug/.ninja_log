@@ -1,13 +1,15 @@
 # ninja log v5
 3	296	7314047554458468	CMakeFiles/DataStructure02.dir/Struct.cpp.obj	215dab7ea78a2e85
+3	293	7318706952505234	CMakeFiles/DataStructure04.dir/ParamPassingInFunction.cpp.obj	cc1a9478eef859ab
 297	394	7314047555406373	DataStructure02.exe	c6924b836dcbd780
 603	718	7314097282978567	DataStructure01.exe	8410a66cee2a0b64
 2	603	7314097281848994	CMakeFiles/DataStructure01.dir/Array.cpp.obj	82c2baa7c81a5cf4
-0	588	7314103223032232	CMakeFiles/DataStructure03.dir/Pointer.cpp.obj	676f0ccc2e00bcf9
-589	706	7314103224174641	DataStructure03.exe	3f8dbe036706b62e
-2	277	7314103488667026	CMakeFiles/DataStructure03.dir/Pointer.cpp.obj	676f0ccc2e00bcf9
-278	364	7314103489503656	DataStructure03.exe	3f8dbe036706b62e
-3	270	7314103558517986	CMakeFiles/DataStructure03.dir/Pointer.cpp.obj	676f0ccc2e00bcf9
-272	370	7314103559479059	DataStructure03.exe	3f8dbe036706b62e
+293	402	7318706953570878	DataStructure04.exe	4dbea0823b548e18
 3	269	7314104209136249	CMakeFiles/DataStructure03.dir/Pointer.cpp.obj	676f0ccc2e00bcf9
 270	401	7314104210452104	DataStructure03.exe	3f8dbe036706b62e
+1	942	7318721106481756	CMakeFiles/DataStructure05.dir/ArrayAsParameter.cpp.obj	ae03e630e493281d
+942	1077	7318721107776157	DataStructure05.exe	2db58746dfe6e838
+5	309	7318721213664631	CMakeFiles/DataStructure05.dir/ArrayAsParameter.cpp.obj	ae03e630e493281d
+311	435	7318721214894642	DataStructure05.exe	2db58746dfe6e838
+2	277	7318721938519642	CMakeFiles/DataStructure05.dir/ArrayAsParameter.cpp.obj	ae03e630e493281d
+278	388	7318721939607089	DataStructure05.exe	2db58746dfe6e838

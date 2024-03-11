@@ -55,6 +55,18 @@ build CMakeFiles/DataStructure01.dir/Array.cpp.obj: CXX_COMPILER__DataStructure0
   OBJECT_DIR = CMakeFiles\DataStructure01.dir
   OBJECT_FILE_DIR = CMakeFiles\DataStructure01.dir
 
+build CMakeFiles/DataStructure01.dir/ParamPassingInFunction.cpp.obj: CXX_COMPILER__DataStructure01_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/ParamPassingInFunction.cpp || cmake_object_order_depends_target_DataStructure01
+  DEP_FILE = CMakeFiles\DataStructure01.dir\ParamPassingInFunction.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DataStructure01.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructure01.dir
+
+build CMakeFiles/DataStructure01.dir/ArrayAsParameter.cpp.obj: CXX_COMPILER__DataStructure01_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/ArrayAsParameter.cpp || cmake_object_order_depends_target_DataStructure01
+  DEP_FILE = CMakeFiles\DataStructure01.dir\ArrayAsParameter.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DataStructure01.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructure01.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DataStructure01
@@ -63,7 +75,7 @@ build CMakeFiles/DataStructure01.dir/Array.cpp.obj: CXX_COMPILER__DataStructure0
 #############################################
 # Link the executable DataStructure01.exe
 
-build DataStructure01.exe: CXX_EXECUTABLE_LINKER__DataStructure01_Debug CMakeFiles/DataStructure01.dir/Array.cpp.obj
+build DataStructure01.exe: CXX_EXECUTABLE_LINKER__DataStructure01_Debug CMakeFiles/DataStructure01.dir/Array.cpp.obj CMakeFiles/DataStructure01.dir/ParamPassingInFunction.cpp.obj CMakeFiles/DataStructure01.dir/ArrayAsParameter.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DataStructure01.dir
@@ -139,6 +151,72 @@ build DataStructure03.exe: CXX_EXECUTABLE_LINKER__DataStructure03_Debug CMakeFil
   TARGET_IMPLIB = libDataStructure03.dll.a
   TARGET_PDB = DataStructure03.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DataStructure04
+
+
+#############################################
+# Order-only phony target for DataStructure04
+
+build cmake_object_order_depends_target_DataStructure04: phony || CMakeFiles/DataStructure04.dir
+
+build CMakeFiles/DataStructure04.dir/ParamPassingInFunction.cpp.obj: CXX_COMPILER__DataStructure04_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/ParamPassingInFunction.cpp || cmake_object_order_depends_target_DataStructure04
+  DEP_FILE = CMakeFiles\DataStructure04.dir\ParamPassingInFunction.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DataStructure04.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructure04.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DataStructure04
+
+
+#############################################
+# Link the executable DataStructure04.exe
+
+build DataStructure04.exe: CXX_EXECUTABLE_LINKER__DataStructure04_Debug CMakeFiles/DataStructure04.dir/ParamPassingInFunction.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DataStructure04.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DataStructure04.exe
+  TARGET_IMPLIB = libDataStructure04.dll.a
+  TARGET_PDB = DataStructure04.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DataStructure05
+
+
+#############################################
+# Order-only phony target for DataStructure05
+
+build cmake_object_order_depends_target_DataStructure05: phony || CMakeFiles/DataStructure05.dir
+
+build CMakeFiles/DataStructure05.dir/ArrayAsParameter.cpp.obj: CXX_COMPILER__DataStructure05_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/ArrayAsParameter.cpp || cmake_object_order_depends_target_DataStructure05
+  DEP_FILE = CMakeFiles\DataStructure05.dir\ArrayAsParameter.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DataStructure05.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructure05.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DataStructure05
+
+
+#############################################
+# Link the executable DataStructure05.exe
+
+build DataStructure05.exe: CXX_EXECUTABLE_LINKER__DataStructure05_Debug CMakeFiles/DataStructure05.dir/ArrayAsParameter.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DataStructure05.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DataStructure05.exe
+  TARGET_IMPLIB = libDataStructure05.dll.a
+  TARGET_PDB = DataStructure05.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -171,6 +249,10 @@ build DataStructure02: phony DataStructure02.exe
 
 build DataStructure03: phony DataStructure03.exe
 
+build DataStructure04: phony DataStructure04.exe
+
+build DataStructure05: phony DataStructure05.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +261,7 @@ build DataStructure03: phony DataStructure03.exe
 #############################################
 # Folder: C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug
 
-build all: phony DataStructure01.exe DataStructure02.exe DataStructure03.exe
+build all: phony DataStructure01.exe DataStructure02.exe DataStructure03.exe DataStructure04.exe DataStructure05.exe
 
 # =============================================================================
 # Built-in targets

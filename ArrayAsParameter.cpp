@@ -11,15 +11,34 @@ int * Fun(int n)
     return p;
 }
 
+struct Rec{
+    int height;
+    int weidth;
+};
+
+Rec *recFun()
+{
+    Rec *ptr;
+    ptr = new Rec;
+
+    ptr->height = 9;
+    ptr->weidth = 33;
+
+    return ptr;
+}
+
 int main(){
 
     int * ptr;
     ptr= Fun(5);
-    ptr[1] = 10;
+    ptr[1] = 100;
+    ptr[2] = 330;
 
-    std::cout << ptr[1] << '\n';
+    std::cout << ptr[1] << " " << ptr[2] << '\n';
 
+    Rec *ptrRec = recFun();
 
+    std::cout << ptrRec->weidth  << '\n';
 
 
 

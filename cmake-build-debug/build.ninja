@@ -238,6 +238,39 @@ build DataStructure06.exe: CXX_EXECUTABLE_LINKER__DataStructure06_Debug CMakeFil
   TARGET_IMPLIB = libDataStructure06.dll.a
   TARGET_PDB = DataStructure06.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DataStructure07
+
+
+#############################################
+# Order-only phony target for DataStructure07
+
+build cmake_object_order_depends_target_DataStructure07: phony || CMakeFiles/DataStructure07.dir
+
+build CMakeFiles/DataStructure07.dir/TreeRecursion.cpp.obj: CXX_COMPILER__DataStructure07_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/TreeRecursion.cpp || cmake_object_order_depends_target_DataStructure07
+  DEP_FILE = CMakeFiles\DataStructure07.dir\TreeRecursion.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DataStructure07.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructure07.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DataStructure07
+
+
+#############################################
+# Link the executable DataStructure07.exe
+
+build DataStructure07.exe: CXX_EXECUTABLE_LINKER__DataStructure07_Debug CMakeFiles/DataStructure07.dir/TreeRecursion.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DataStructure07.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DataStructure07.exe
+  TARGET_IMPLIB = libDataStructure07.dll.a
+  TARGET_PDB = DataStructure07.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -276,6 +309,8 @@ build DataStructure05: phony DataStructure05.exe
 
 build DataStructure06: phony DataStructure06.exe
 
+build DataStructure07: phony DataStructure07.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -284,7 +319,7 @@ build DataStructure06: phony DataStructure06.exe
 #############################################
 # Folder: C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug
 
-build all: phony DataStructure01.exe DataStructure02.exe DataStructure03.exe DataStructure04.exe DataStructure05.exe DataStructure06.exe
+build all: phony DataStructure01.exe DataStructure02.exe DataStructure03.exe DataStructure04.exe DataStructure05.exe DataStructure06.exe DataStructure07.exe
 
 # =============================================================================
 # Built-in targets

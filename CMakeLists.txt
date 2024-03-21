@@ -9,6 +9,7 @@ add_executable(DataStructure03 Pointer.cpp)
 add_executable(DataStructure04 ParamPassingInFunction.cpp)
 add_executable(DataStructure05 ArrayAsParameter.cpp)
 add_executable(DataStructure06 TailHead.cpp)
+add_executable(DataStructure07 TreeRecursion.cpp)
 
 
 

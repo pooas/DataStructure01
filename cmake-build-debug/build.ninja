@@ -55,6 +55,12 @@ build CMakeFiles/DataStructure01.dir/Array.cpp.obj: CXX_COMPILER__DataStructure0
   OBJECT_DIR = CMakeFiles\DataStructure01.dir
   OBJECT_FILE_DIR = CMakeFiles\DataStructure01.dir
 
+build CMakeFiles/DataStructure01.dir/IndirectRecursion.cpp.obj: CXX_COMPILER__DataStructure01_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/IndirectRecursion.cpp || cmake_object_order_depends_target_DataStructure01
+  DEP_FILE = CMakeFiles\DataStructure01.dir\IndirectRecursion.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DataStructure01.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructure01.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DataStructure01
@@ -63,7 +69,7 @@ build CMakeFiles/DataStructure01.dir/Array.cpp.obj: CXX_COMPILER__DataStructure0
 #############################################
 # Link the executable DataStructure01.exe
 
-build DataStructure01.exe: CXX_EXECUTABLE_LINKER__DataStructure01_Debug CMakeFiles/DataStructure01.dir/Array.cpp.obj
+build DataStructure01.exe: CXX_EXECUTABLE_LINKER__DataStructure01_Debug CMakeFiles/DataStructure01.dir/Array.cpp.obj CMakeFiles/DataStructure01.dir/IndirectRecursion.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DataStructure01.dir
@@ -271,6 +277,39 @@ build DataStructure07.exe: CXX_EXECUTABLE_LINKER__DataStructure07_Debug CMakeFil
   TARGET_IMPLIB = libDataStructure07.dll.a
   TARGET_PDB = DataStructure07.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DataStructure08
+
+
+#############################################
+# Order-only phony target for DataStructure08
+
+build cmake_object_order_depends_target_DataStructure08: phony || CMakeFiles/DataStructure08.dir
+
+build CMakeFiles/DataStructure08.dir/IndirectRecursion.cpp.obj: CXX_COMPILER__DataStructure08_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/IndirectRecursion.cpp || cmake_object_order_depends_target_DataStructure08
+  DEP_FILE = CMakeFiles\DataStructure08.dir\IndirectRecursion.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DataStructure08.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructure08.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DataStructure08
+
+
+#############################################
+# Link the executable DataStructure08.exe
+
+build DataStructure08.exe: CXX_EXECUTABLE_LINKER__DataStructure08_Debug CMakeFiles/DataStructure08.dir/IndirectRecursion.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DataStructure08.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DataStructure08.exe
+  TARGET_IMPLIB = libDataStructure08.dll.a
+  TARGET_PDB = DataStructure08.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -311,6 +350,8 @@ build DataStructure06: phony DataStructure06.exe
 
 build DataStructure07: phony DataStructure07.exe
 
+build DataStructure08: phony DataStructure08.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -319,7 +360,7 @@ build DataStructure07: phony DataStructure07.exe
 #############################################
 # Folder: C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug
 
-build all: phony DataStructure01.exe DataStructure02.exe DataStructure03.exe DataStructure04.exe DataStructure05.exe DataStructure06.exe DataStructure07.exe
+build all: phony DataStructure01.exe DataStructure02.exe DataStructure03.exe DataStructure04.exe DataStructure05.exe DataStructure06.exe DataStructure07.exe DataStructure08.exe
 
 # =============================================================================
 # Built-in targets

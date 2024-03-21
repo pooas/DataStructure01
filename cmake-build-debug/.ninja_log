@@ -11,11 +11,11 @@
 265	392	7318740112373578	DataStructure05.exe	2db58746dfe6e838
 3	524	7323665830275022	CMakeFiles/DataStructure06.dir/TailHead.cpp.obj	79f26b38d69a5de7
 524	668	7323665831676972	DataStructure06.exe	aae18f9c7a60894e
-0	679	7327456087995992	CMakeFiles/DataStructure07.dir/TreeRecursion.cpp.obj	9727b3ea63eb9640
-680	1025	7327456091389856	DataStructure07.exe	6899001a9ee065be
-3	517	7327456781524539	CMakeFiles/DataStructure07.dir/TreeRecursion.cpp.obj	9727b3ea63eb9640
-518	649	7327456782813386	DataStructure07.exe	6899001a9ee065be
-3	308	7327456909604493	CMakeFiles/DataStructure07.dir/TreeRecursion.cpp.obj	9727b3ea63eb9640
-308	511	7327456911587909	DataStructure07.exe	6899001a9ee065be
 3	297	7327457001065004	CMakeFiles/DataStructure07.dir/TreeRecursion.cpp.obj	9727b3ea63eb9640
 299	431	7327457002399614	DataStructure07.exe	6899001a9ee065be
+1	459	7327466808414684	CMakeFiles/DataStructure08.dir/IndirectRecursion.cpp.obj	5871bfbbb36c127a
+459	590	7327466809685889	DataStructure08.exe	8ce7fde99de85ff5
+4	293	7327467092137014	CMakeFiles/DataStructure08.dir/IndirectRecursion.cpp.obj	5871bfbbb36c127a
+293	427	7327467093426665	DataStructure08.exe	8ce7fde99de85ff5
+3	287	7327468047560809	CMakeFiles/DataStructure08.dir/IndirectRecursion.cpp.obj	5871bfbbb36c127a
+289	395	7327468048608027	DataStructure08.exe	8ce7fde99de85ff5

@@ -25,6 +25,6 @@ void funB(int n){
 
 int main(){
 
-    funB(100);
+    funA(100);
     return 0;
 }

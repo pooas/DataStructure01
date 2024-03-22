@@ -61,6 +61,12 @@ build CMakeFiles/DataStructure01.dir/IndirectRecursion.cpp.obj: CXX_COMPILER__Da
   OBJECT_DIR = CMakeFiles\DataStructure01.dir
   OBJECT_FILE_DIR = CMakeFiles\DataStructure01.dir
 
+build CMakeFiles/DataStructure01.dir/NestedRecursion.cpp.obj: CXX_COMPILER__DataStructure01_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/NestedRecursion.cpp || cmake_object_order_depends_target_DataStructure01
+  DEP_FILE = CMakeFiles\DataStructure01.dir\NestedRecursion.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DataStructure01.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructure01.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DataStructure01
@@ -69,7 +75,7 @@ build CMakeFiles/DataStructure01.dir/IndirectRecursion.cpp.obj: CXX_COMPILER__Da
 #############################################
 # Link the executable DataStructure01.exe
 
-build DataStructure01.exe: CXX_EXECUTABLE_LINKER__DataStructure01_Debug CMakeFiles/DataStructure01.dir/Array.cpp.obj CMakeFiles/DataStructure01.dir/IndirectRecursion.cpp.obj
+build DataStructure01.exe: CXX_EXECUTABLE_LINKER__DataStructure01_Debug CMakeFiles/DataStructure01.dir/Array.cpp.obj CMakeFiles/DataStructure01.dir/IndirectRecursion.cpp.obj CMakeFiles/DataStructure01.dir/NestedRecursion.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DataStructure01.dir
@@ -310,6 +316,39 @@ build DataStructure08.exe: CXX_EXECUTABLE_LINKER__DataStructure08_Debug CMakeFil
   TARGET_IMPLIB = libDataStructure08.dll.a
   TARGET_PDB = DataStructure08.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DataStructure09
+
+
+#############################################
+# Order-only phony target for DataStructure09
+
+build cmake_object_order_depends_target_DataStructure09: phony || CMakeFiles/DataStructure09.dir
+
+build CMakeFiles/DataStructure09.dir/NestedRecursion.cpp.obj: CXX_COMPILER__DataStructure09_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/NestedRecursion.cpp || cmake_object_order_depends_target_DataStructure09
+  DEP_FILE = CMakeFiles\DataStructure09.dir\NestedRecursion.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DataStructure09.dir
+  OBJECT_FILE_DIR = CMakeFiles\DataStructure09.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DataStructure09
+
+
+#############################################
+# Link the executable DataStructure09.exe
+
+build DataStructure09.exe: CXX_EXECUTABLE_LINKER__DataStructure09_Debug CMakeFiles/DataStructure09.dir/NestedRecursion.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DataStructure09.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DataStructure09.exe
+  TARGET_IMPLIB = libDataStructure09.dll.a
+  TARGET_PDB = DataStructure09.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -352,6 +391,8 @@ build DataStructure07: phony DataStructure07.exe
 
 build DataStructure08: phony DataStructure08.exe
 
+build DataStructure09: phony DataStructure09.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -360,7 +401,7 @@ build DataStructure08: phony DataStructure08.exe
 #############################################
 # Folder: C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug
 
-build all: phony DataStructure01.exe DataStructure02.exe DataStructure03.exe DataStructure04.exe DataStructure05.exe DataStructure06.exe DataStructure07.exe DataStructure08.exe
+build all: phony DataStructure01.exe DataStructure02.exe DataStructure03.exe DataStructure04.exe DataStructure05.exe DataStructure06.exe DataStructure07.exe DataStructure08.exe DataStructure09.exe
 
 # =============================================================================
 # Built-in targets

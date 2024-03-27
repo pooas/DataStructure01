@@ -3,17 +3,17 @@ project(DataStructure01)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(DataStructure01 Array.cpp
-        IndirectRecursion.cpp
-        NestedRecursion.cpp)
-add_executable(DataStructure02 Struct.cpp)
-add_executable(DataStructure03 Pointer.cpp)
-add_executable(DataStructure04 ParamPassingInFunction.cpp)
-add_executable(DataStructure05 ArrayAsParameter.cpp)
-add_executable(DataStructure06 TailHead.cpp)
-add_executable(DataStructure07 TreeRecursion.cpp)
-add_executable(DataStructure08 IndirectRecursion.cpp)
-add_executable(DataStructure09 NestedRecursion.cpp)
+add_executable(DataStructure01 Array.cpp)
+add_executable(Struct Struct.cpp)
+add_executable(Pointer Pointer.cpp)
+add_executable(ParamPassingInFunction ParamPassingInFunction.cpp)
+add_executable(ArrayAsParameter ArrayAsParameter.cpp)
+add_executable(TailHead TailHead.cpp)
+add_executable(TreeRecursion TreeRecursion.cpp)
+add_executable(IndirectRecursion IndirectRecursion.cpp)
+add_executable(NestedRecursion NestedRecursion.cpp)
+add_executable(nCr nCr.cpp)
+
 
 
 

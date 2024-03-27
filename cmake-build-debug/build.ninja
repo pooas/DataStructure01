@@ -55,18 +55,6 @@ build CMakeFiles/DataStructure01.dir/Array.cpp.obj: CXX_COMPILER__DataStructure0
   OBJECT_DIR = CMakeFiles\DataStructure01.dir
   OBJECT_FILE_DIR = CMakeFiles\DataStructure01.dir
 
-build CMakeFiles/DataStructure01.dir/IndirectRecursion.cpp.obj: CXX_COMPILER__DataStructure01_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/IndirectRecursion.cpp || cmake_object_order_depends_target_DataStructure01
-  DEP_FILE = CMakeFiles\DataStructure01.dir\IndirectRecursion.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\DataStructure01.dir
-  OBJECT_FILE_DIR = CMakeFiles\DataStructure01.dir
-
-build CMakeFiles/DataStructure01.dir/NestedRecursion.cpp.obj: CXX_COMPILER__DataStructure01_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/NestedRecursion.cpp || cmake_object_order_depends_target_DataStructure01
-  DEP_FILE = CMakeFiles\DataStructure01.dir\NestedRecursion.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\DataStructure01.dir
-  OBJECT_FILE_DIR = CMakeFiles\DataStructure01.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DataStructure01
@@ -75,7 +63,7 @@ build CMakeFiles/DataStructure01.dir/NestedRecursion.cpp.obj: CXX_COMPILER__Data
 #############################################
 # Link the executable DataStructure01.exe
 
-build DataStructure01.exe: CXX_EXECUTABLE_LINKER__DataStructure01_Debug CMakeFiles/DataStructure01.dir/Array.cpp.obj CMakeFiles/DataStructure01.dir/IndirectRecursion.cpp.obj CMakeFiles/DataStructure01.dir/NestedRecursion.cpp.obj
+build DataStructure01.exe: CXX_EXECUTABLE_LINKER__DataStructure01_Debug CMakeFiles/DataStructure01.dir/Array.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DataStructure01.dir
@@ -86,268 +74,301 @@ build DataStructure01.exe: CXX_EXECUTABLE_LINKER__DataStructure01_Debug CMakeFil
   TARGET_PDB = DataStructure01.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target DataStructure02
+# Object build statements for EXECUTABLE target Struct
 
 
 #############################################
-# Order-only phony target for DataStructure02
+# Order-only phony target for Struct
 
-build cmake_object_order_depends_target_DataStructure02: phony || CMakeFiles/DataStructure02.dir
+build cmake_object_order_depends_target_Struct: phony || CMakeFiles/Struct.dir
 
-build CMakeFiles/DataStructure02.dir/Struct.cpp.obj: CXX_COMPILER__DataStructure02_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/Struct.cpp || cmake_object_order_depends_target_DataStructure02
-  DEP_FILE = CMakeFiles\DataStructure02.dir\Struct.cpp.obj.d
+build CMakeFiles/Struct.dir/Struct.cpp.obj: CXX_COMPILER__Struct_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/Struct.cpp || cmake_object_order_depends_target_Struct
+  DEP_FILE = CMakeFiles\Struct.dir\Struct.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\DataStructure02.dir
-  OBJECT_FILE_DIR = CMakeFiles\DataStructure02.dir
+  OBJECT_DIR = CMakeFiles\Struct.dir
+  OBJECT_FILE_DIR = CMakeFiles\Struct.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DataStructure02
+# Link build statements for EXECUTABLE target Struct
 
 
 #############################################
-# Link the executable DataStructure02.exe
+# Link the executable Struct.exe
 
-build DataStructure02.exe: CXX_EXECUTABLE_LINKER__DataStructure02_Debug CMakeFiles/DataStructure02.dir/Struct.cpp.obj
+build Struct.exe: CXX_EXECUTABLE_LINKER__Struct_Debug CMakeFiles/Struct.dir/Struct.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\DataStructure02.dir
+  OBJECT_DIR = CMakeFiles\Struct.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = DataStructure02.exe
-  TARGET_IMPLIB = libDataStructure02.dll.a
-  TARGET_PDB = DataStructure02.exe.dbg
+  TARGET_FILE = Struct.exe
+  TARGET_IMPLIB = libStruct.dll.a
+  TARGET_PDB = Struct.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target DataStructure03
+# Object build statements for EXECUTABLE target Pointer
 
 
 #############################################
-# Order-only phony target for DataStructure03
+# Order-only phony target for Pointer
 
-build cmake_object_order_depends_target_DataStructure03: phony || CMakeFiles/DataStructure03.dir
+build cmake_object_order_depends_target_Pointer: phony || CMakeFiles/Pointer.dir
 
-build CMakeFiles/DataStructure03.dir/Pointer.cpp.obj: CXX_COMPILER__DataStructure03_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/Pointer.cpp || cmake_object_order_depends_target_DataStructure03
-  DEP_FILE = CMakeFiles\DataStructure03.dir\Pointer.cpp.obj.d
+build CMakeFiles/Pointer.dir/Pointer.cpp.obj: CXX_COMPILER__Pointer_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/Pointer.cpp || cmake_object_order_depends_target_Pointer
+  DEP_FILE = CMakeFiles\Pointer.dir\Pointer.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\DataStructure03.dir
-  OBJECT_FILE_DIR = CMakeFiles\DataStructure03.dir
+  OBJECT_DIR = CMakeFiles\Pointer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pointer.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DataStructure03
+# Link build statements for EXECUTABLE target Pointer
 
 
 #############################################
-# Link the executable DataStructure03.exe
+# Link the executable Pointer.exe
 
-build DataStructure03.exe: CXX_EXECUTABLE_LINKER__DataStructure03_Debug CMakeFiles/DataStructure03.dir/Pointer.cpp.obj
+build Pointer.exe: CXX_EXECUTABLE_LINKER__Pointer_Debug CMakeFiles/Pointer.dir/Pointer.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\DataStructure03.dir
+  OBJECT_DIR = CMakeFiles\Pointer.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = DataStructure03.exe
-  TARGET_IMPLIB = libDataStructure03.dll.a
-  TARGET_PDB = DataStructure03.exe.dbg
+  TARGET_FILE = Pointer.exe
+  TARGET_IMPLIB = libPointer.dll.a
+  TARGET_PDB = Pointer.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target DataStructure04
+# Object build statements for EXECUTABLE target ParamPassingInFunction
 
 
 #############################################
-# Order-only phony target for DataStructure04
+# Order-only phony target for ParamPassingInFunction
 
-build cmake_object_order_depends_target_DataStructure04: phony || CMakeFiles/DataStructure04.dir
+build cmake_object_order_depends_target_ParamPassingInFunction: phony || CMakeFiles/ParamPassingInFunction.dir
 
-build CMakeFiles/DataStructure04.dir/ParamPassingInFunction.cpp.obj: CXX_COMPILER__DataStructure04_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/ParamPassingInFunction.cpp || cmake_object_order_depends_target_DataStructure04
-  DEP_FILE = CMakeFiles\DataStructure04.dir\ParamPassingInFunction.cpp.obj.d
+build CMakeFiles/ParamPassingInFunction.dir/ParamPassingInFunction.cpp.obj: CXX_COMPILER__ParamPassingInFunction_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/ParamPassingInFunction.cpp || cmake_object_order_depends_target_ParamPassingInFunction
+  DEP_FILE = CMakeFiles\ParamPassingInFunction.dir\ParamPassingInFunction.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\DataStructure04.dir
-  OBJECT_FILE_DIR = CMakeFiles\DataStructure04.dir
+  OBJECT_DIR = CMakeFiles\ParamPassingInFunction.dir
+  OBJECT_FILE_DIR = CMakeFiles\ParamPassingInFunction.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DataStructure04
+# Link build statements for EXECUTABLE target ParamPassingInFunction
 
 
 #############################################
-# Link the executable DataStructure04.exe
+# Link the executable ParamPassingInFunction.exe
 
-build DataStructure04.exe: CXX_EXECUTABLE_LINKER__DataStructure04_Debug CMakeFiles/DataStructure04.dir/ParamPassingInFunction.cpp.obj
+build ParamPassingInFunction.exe: CXX_EXECUTABLE_LINKER__ParamPassingInFunction_Debug CMakeFiles/ParamPassingInFunction.dir/ParamPassingInFunction.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\DataStructure04.dir
+  OBJECT_DIR = CMakeFiles\ParamPassingInFunction.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = DataStructure04.exe
-  TARGET_IMPLIB = libDataStructure04.dll.a
-  TARGET_PDB = DataStructure04.exe.dbg
+  TARGET_FILE = ParamPassingInFunction.exe
+  TARGET_IMPLIB = libParamPassingInFunction.dll.a
+  TARGET_PDB = ParamPassingInFunction.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target DataStructure05
+# Object build statements for EXECUTABLE target ArrayAsParameter
 
 
 #############################################
-# Order-only phony target for DataStructure05
+# Order-only phony target for ArrayAsParameter
 
-build cmake_object_order_depends_target_DataStructure05: phony || CMakeFiles/DataStructure05.dir
+build cmake_object_order_depends_target_ArrayAsParameter: phony || CMakeFiles/ArrayAsParameter.dir
 
-build CMakeFiles/DataStructure05.dir/ArrayAsParameter.cpp.obj: CXX_COMPILER__DataStructure05_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/ArrayAsParameter.cpp || cmake_object_order_depends_target_DataStructure05
-  DEP_FILE = CMakeFiles\DataStructure05.dir\ArrayAsParameter.cpp.obj.d
+build CMakeFiles/ArrayAsParameter.dir/ArrayAsParameter.cpp.obj: CXX_COMPILER__ArrayAsParameter_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/ArrayAsParameter.cpp || cmake_object_order_depends_target_ArrayAsParameter
+  DEP_FILE = CMakeFiles\ArrayAsParameter.dir\ArrayAsParameter.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\DataStructure05.dir
-  OBJECT_FILE_DIR = CMakeFiles\DataStructure05.dir
+  OBJECT_DIR = CMakeFiles\ArrayAsParameter.dir
+  OBJECT_FILE_DIR = CMakeFiles\ArrayAsParameter.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DataStructure05
+# Link build statements for EXECUTABLE target ArrayAsParameter
 
 
 #############################################
-# Link the executable DataStructure05.exe
+# Link the executable ArrayAsParameter.exe
 
-build DataStructure05.exe: CXX_EXECUTABLE_LINKER__DataStructure05_Debug CMakeFiles/DataStructure05.dir/ArrayAsParameter.cpp.obj
+build ArrayAsParameter.exe: CXX_EXECUTABLE_LINKER__ArrayAsParameter_Debug CMakeFiles/ArrayAsParameter.dir/ArrayAsParameter.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\DataStructure05.dir
+  OBJECT_DIR = CMakeFiles\ArrayAsParameter.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = DataStructure05.exe
-  TARGET_IMPLIB = libDataStructure05.dll.a
-  TARGET_PDB = DataStructure05.exe.dbg
+  TARGET_FILE = ArrayAsParameter.exe
+  TARGET_IMPLIB = libArrayAsParameter.dll.a
+  TARGET_PDB = ArrayAsParameter.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target DataStructure06
+# Object build statements for EXECUTABLE target TailHead
 
 
 #############################################
-# Order-only phony target for DataStructure06
+# Order-only phony target for TailHead
 
-build cmake_object_order_depends_target_DataStructure06: phony || CMakeFiles/DataStructure06.dir
+build cmake_object_order_depends_target_TailHead: phony || CMakeFiles/TailHead.dir
 
-build CMakeFiles/DataStructure06.dir/TailHead.cpp.obj: CXX_COMPILER__DataStructure06_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/TailHead.cpp || cmake_object_order_depends_target_DataStructure06
-  DEP_FILE = CMakeFiles\DataStructure06.dir\TailHead.cpp.obj.d
+build CMakeFiles/TailHead.dir/TailHead.cpp.obj: CXX_COMPILER__TailHead_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/TailHead.cpp || cmake_object_order_depends_target_TailHead
+  DEP_FILE = CMakeFiles\TailHead.dir\TailHead.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\DataStructure06.dir
-  OBJECT_FILE_DIR = CMakeFiles\DataStructure06.dir
+  OBJECT_DIR = CMakeFiles\TailHead.dir
+  OBJECT_FILE_DIR = CMakeFiles\TailHead.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DataStructure06
+# Link build statements for EXECUTABLE target TailHead
 
 
 #############################################
-# Link the executable DataStructure06.exe
+# Link the executable TailHead.exe
 
-build DataStructure06.exe: CXX_EXECUTABLE_LINKER__DataStructure06_Debug CMakeFiles/DataStructure06.dir/TailHead.cpp.obj
+build TailHead.exe: CXX_EXECUTABLE_LINKER__TailHead_Debug CMakeFiles/TailHead.dir/TailHead.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\DataStructure06.dir
+  OBJECT_DIR = CMakeFiles\TailHead.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = DataStructure06.exe
-  TARGET_IMPLIB = libDataStructure06.dll.a
-  TARGET_PDB = DataStructure06.exe.dbg
+  TARGET_FILE = TailHead.exe
+  TARGET_IMPLIB = libTailHead.dll.a
+  TARGET_PDB = TailHead.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target DataStructure07
+# Object build statements for EXECUTABLE target TreeRecursion
 
 
 #############################################
-# Order-only phony target for DataStructure07
+# Order-only phony target for TreeRecursion
 
-build cmake_object_order_depends_target_DataStructure07: phony || CMakeFiles/DataStructure07.dir
+build cmake_object_order_depends_target_TreeRecursion: phony || CMakeFiles/TreeRecursion.dir
 
-build CMakeFiles/DataStructure07.dir/TreeRecursion.cpp.obj: CXX_COMPILER__DataStructure07_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/TreeRecursion.cpp || cmake_object_order_depends_target_DataStructure07
-  DEP_FILE = CMakeFiles\DataStructure07.dir\TreeRecursion.cpp.obj.d
+build CMakeFiles/TreeRecursion.dir/TreeRecursion.cpp.obj: CXX_COMPILER__TreeRecursion_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/TreeRecursion.cpp || cmake_object_order_depends_target_TreeRecursion
+  DEP_FILE = CMakeFiles\TreeRecursion.dir\TreeRecursion.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\DataStructure07.dir
-  OBJECT_FILE_DIR = CMakeFiles\DataStructure07.dir
+  OBJECT_DIR = CMakeFiles\TreeRecursion.dir
+  OBJECT_FILE_DIR = CMakeFiles\TreeRecursion.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DataStructure07
+# Link build statements for EXECUTABLE target TreeRecursion
 
 
 #############################################
-# Link the executable DataStructure07.exe
+# Link the executable TreeRecursion.exe
 
-build DataStructure07.exe: CXX_EXECUTABLE_LINKER__DataStructure07_Debug CMakeFiles/DataStructure07.dir/TreeRecursion.cpp.obj
+build TreeRecursion.exe: CXX_EXECUTABLE_LINKER__TreeRecursion_Debug CMakeFiles/TreeRecursion.dir/TreeRecursion.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\DataStructure07.dir
+  OBJECT_DIR = CMakeFiles\TreeRecursion.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = DataStructure07.exe
-  TARGET_IMPLIB = libDataStructure07.dll.a
-  TARGET_PDB = DataStructure07.exe.dbg
+  TARGET_FILE = TreeRecursion.exe
+  TARGET_IMPLIB = libTreeRecursion.dll.a
+  TARGET_PDB = TreeRecursion.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target DataStructure08
+# Object build statements for EXECUTABLE target IndirectRecursion
 
 
 #############################################
-# Order-only phony target for DataStructure08
+# Order-only phony target for IndirectRecursion
 
-build cmake_object_order_depends_target_DataStructure08: phony || CMakeFiles/DataStructure08.dir
+build cmake_object_order_depends_target_IndirectRecursion: phony || CMakeFiles/IndirectRecursion.dir
 
-build CMakeFiles/DataStructure08.dir/IndirectRecursion.cpp.obj: CXX_COMPILER__DataStructure08_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/IndirectRecursion.cpp || cmake_object_order_depends_target_DataStructure08
-  DEP_FILE = CMakeFiles\DataStructure08.dir\IndirectRecursion.cpp.obj.d
+build CMakeFiles/IndirectRecursion.dir/IndirectRecursion.cpp.obj: CXX_COMPILER__IndirectRecursion_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/IndirectRecursion.cpp || cmake_object_order_depends_target_IndirectRecursion
+  DEP_FILE = CMakeFiles\IndirectRecursion.dir\IndirectRecursion.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\DataStructure08.dir
-  OBJECT_FILE_DIR = CMakeFiles\DataStructure08.dir
+  OBJECT_DIR = CMakeFiles\IndirectRecursion.dir
+  OBJECT_FILE_DIR = CMakeFiles\IndirectRecursion.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DataStructure08
+# Link build statements for EXECUTABLE target IndirectRecursion
 
 
 #############################################
-# Link the executable DataStructure08.exe
+# Link the executable IndirectRecursion.exe
 
-build DataStructure08.exe: CXX_EXECUTABLE_LINKER__DataStructure08_Debug CMakeFiles/DataStructure08.dir/IndirectRecursion.cpp.obj
+build IndirectRecursion.exe: CXX_EXECUTABLE_LINKER__IndirectRecursion_Debug CMakeFiles/IndirectRecursion.dir/IndirectRecursion.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\DataStructure08.dir
+  OBJECT_DIR = CMakeFiles\IndirectRecursion.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = DataStructure08.exe
-  TARGET_IMPLIB = libDataStructure08.dll.a
-  TARGET_PDB = DataStructure08.exe.dbg
+  TARGET_FILE = IndirectRecursion.exe
+  TARGET_IMPLIB = libIndirectRecursion.dll.a
+  TARGET_PDB = IndirectRecursion.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target DataStructure09
+# Object build statements for EXECUTABLE target NestedRecursion
 
 
 #############################################
-# Order-only phony target for DataStructure09
+# Order-only phony target for NestedRecursion
 
-build cmake_object_order_depends_target_DataStructure09: phony || CMakeFiles/DataStructure09.dir
+build cmake_object_order_depends_target_NestedRecursion: phony || CMakeFiles/NestedRecursion.dir
 
-build CMakeFiles/DataStructure09.dir/NestedRecursion.cpp.obj: CXX_COMPILER__DataStructure09_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/NestedRecursion.cpp || cmake_object_order_depends_target_DataStructure09
-  DEP_FILE = CMakeFiles\DataStructure09.dir\NestedRecursion.cpp.obj.d
+build CMakeFiles/NestedRecursion.dir/NestedRecursion.cpp.obj: CXX_COMPILER__NestedRecursion_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/NestedRecursion.cpp || cmake_object_order_depends_target_NestedRecursion
+  DEP_FILE = CMakeFiles\NestedRecursion.dir\NestedRecursion.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\DataStructure09.dir
-  OBJECT_FILE_DIR = CMakeFiles\DataStructure09.dir
+  OBJECT_DIR = CMakeFiles\NestedRecursion.dir
+  OBJECT_FILE_DIR = CMakeFiles\NestedRecursion.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target DataStructure09
+# Link build statements for EXECUTABLE target NestedRecursion
 
 
 #############################################
-# Link the executable DataStructure09.exe
+# Link the executable NestedRecursion.exe
 
-build DataStructure09.exe: CXX_EXECUTABLE_LINKER__DataStructure09_Debug CMakeFiles/DataStructure09.dir/NestedRecursion.cpp.obj
+build NestedRecursion.exe: CXX_EXECUTABLE_LINKER__NestedRecursion_Debug CMakeFiles/NestedRecursion.dir/NestedRecursion.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\DataStructure09.dir
+  OBJECT_DIR = CMakeFiles\NestedRecursion.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = DataStructure09.exe
-  TARGET_IMPLIB = libDataStructure09.dll.a
-  TARGET_PDB = DataStructure09.exe.dbg
+  TARGET_FILE = NestedRecursion.exe
+  TARGET_IMPLIB = libNestedRecursion.dll.a
+  TARGET_PDB = NestedRecursion.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target nCr
+
+
+#############################################
+# Order-only phony target for nCr
+
+build cmake_object_order_depends_target_nCr: phony || CMakeFiles/nCr.dir
+
+build CMakeFiles/nCr.dir/nCr.cpp.obj: CXX_COMPILER__nCr_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/nCr.cpp || cmake_object_order_depends_target_nCr
+  DEP_FILE = CMakeFiles\nCr.dir\nCr.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\nCr.dir
+  OBJECT_FILE_DIR = CMakeFiles\nCr.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target nCr
+
+
+#############################################
+# Link the executable nCr.exe
+
+build nCr.exe: CXX_EXECUTABLE_LINKER__nCr_Debug CMakeFiles/nCr.dir/nCr.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\nCr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = nCr.exe
+  TARGET_IMPLIB = libnCr.dll.a
+  TARGET_PDB = nCr.exe.dbg
 
 
 #############################################
@@ -375,23 +396,25 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build ArrayAsParameter: phony ArrayAsParameter.exe
+
 build DataStructure01: phony DataStructure01.exe
 
-build DataStructure02: phony DataStructure02.exe
+build IndirectRecursion: phony IndirectRecursion.exe
 
-build DataStructure03: phony DataStructure03.exe
+build NestedRecursion: phony NestedRecursion.exe
 
-build DataStructure04: phony DataStructure04.exe
+build ParamPassingInFunction: phony ParamPassingInFunction.exe
 
-build DataStructure05: phony DataStructure05.exe
+build Pointer: phony Pointer.exe
 
-build DataStructure06: phony DataStructure06.exe
+build Struct: phony Struct.exe
 
-build DataStructure07: phony DataStructure07.exe
+build TailHead: phony TailHead.exe
 
-build DataStructure08: phony DataStructure08.exe
+build TreeRecursion: phony TreeRecursion.exe
 
-build DataStructure09: phony DataStructure09.exe
+build nCr: phony nCr.exe
 
 # =============================================================================
 # Folder targets.
@@ -401,7 +424,7 @@ build DataStructure09: phony DataStructure09.exe
 #############################################
 # Folder: C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug
 
-build all: phony DataStructure01.exe DataStructure02.exe DataStructure03.exe DataStructure04.exe DataStructure05.exe DataStructure06.exe DataStructure07.exe DataStructure08.exe DataStructure09.exe
+build all: phony DataStructure01.exe Struct.exe Pointer.exe ParamPassingInFunction.exe ArrayAsParameter.exe TailHead.exe TreeRecursion.exe IndirectRecursion.exe NestedRecursion.exe nCr.exe
 
 # =============================================================================
 # Built-in targets

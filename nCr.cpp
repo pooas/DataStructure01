@@ -14,7 +14,7 @@ double nCr(int n, int r)
 {
     double dem, num;
     dem = fact(n);
-    num = fact(r)* fact(n-r);
+    num = fact(r)* fact(n-r); // using Recursion function in another function... it's amazing...
     return dem/num;
 }
 

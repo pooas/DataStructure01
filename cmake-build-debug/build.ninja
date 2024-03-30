@@ -370,6 +370,39 @@ build nCr.exe: CXX_EXECUTABLE_LINKER__nCr_Debug CMakeFiles/nCr.dir/nCr.cpp.obj
   TARGET_IMPLIB = libnCr.dll.a
   TARGET_PDB = nCr.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Array2D
+
+
+#############################################
+# Order-only phony target for Array2D
+
+build cmake_object_order_depends_target_Array2D: phony || CMakeFiles/Array2D.dir
+
+build CMakeFiles/Array2D.dir/Array2D.cpp.obj: CXX_COMPILER__Array2D_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/Array2D.cpp || cmake_object_order_depends_target_Array2D
+  DEP_FILE = CMakeFiles\Array2D.dir\Array2D.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Array2D.dir
+  OBJECT_FILE_DIR = CMakeFiles\Array2D.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Array2D
+
+
+#############################################
+# Link the executable Array2D.exe
+
+build Array2D.exe: CXX_EXECUTABLE_LINKER__Array2D_Debug CMakeFiles/Array2D.dir/Array2D.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Array2D.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Array2D.exe
+  TARGET_IMPLIB = libArray2D.dll.a
+  TARGET_PDB = Array2D.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -395,6 +428,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build Array2D: phony Array2D.exe
 
 build ArrayAsParameter: phony ArrayAsParameter.exe
 
@@ -424,7 +459,7 @@ build nCr: phony nCr.exe
 #############################################
 # Folder: C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug
 
-build all: phony DataStructure01.exe Struct.exe Pointer.exe ParamPassingInFunction.exe ArrayAsParameter.exe TailHead.exe TreeRecursion.exe IndirectRecursion.exe NestedRecursion.exe nCr.exe
+build all: phony DataStructure01.exe Struct.exe Pointer.exe ParamPassingInFunction.exe ArrayAsParameter.exe TailHead.exe TreeRecursion.exe IndirectRecursion.exe NestedRecursion.exe nCr.exe Array2D.exe
 
 # =============================================================================
 # Built-in targets

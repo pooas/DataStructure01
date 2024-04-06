@@ -14,6 +14,7 @@ add_executable(IndirectRecursion IndirectRecursion.cpp)
 add_executable(NestedRecursion NestedRecursion.cpp)
 add_executable(nCr nCr.cpp)
 add_executable(Array2D Array2D.cpp)
+add_executable(BinarySearch BinarySearch.cpp)
 
 
 

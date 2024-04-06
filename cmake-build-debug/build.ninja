@@ -403,6 +403,39 @@ build Array2D.exe: CXX_EXECUTABLE_LINKER__Array2D_Debug CMakeFiles/Array2D.dir/A
   TARGET_IMPLIB = libArray2D.dll.a
   TARGET_PDB = Array2D.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target BinarySearch
+
+
+#############################################
+# Order-only phony target for BinarySearch
+
+build cmake_object_order_depends_target_BinarySearch: phony || CMakeFiles/BinarySearch.dir
+
+build CMakeFiles/BinarySearch.dir/BinarySearch.cpp.obj: CXX_COMPILER__BinarySearch_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/BinarySearch.cpp || cmake_object_order_depends_target_BinarySearch
+  DEP_FILE = CMakeFiles\BinarySearch.dir\BinarySearch.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BinarySearch.dir
+  OBJECT_FILE_DIR = CMakeFiles\BinarySearch.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BinarySearch
+
+
+#############################################
+# Link the executable BinarySearch.exe
+
+build BinarySearch.exe: CXX_EXECUTABLE_LINKER__BinarySearch_Debug CMakeFiles/BinarySearch.dir/BinarySearch.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BinarySearch.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BinarySearch.exe
+  TARGET_IMPLIB = libBinarySearch.dll.a
+  TARGET_PDB = BinarySearch.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -433,6 +466,8 @@ build Array2D: phony Array2D.exe
 
 build ArrayAsParameter: phony ArrayAsParameter.exe
 
+build BinarySearch: phony BinarySearch.exe
+
 build DataStructure01: phony DataStructure01.exe
 
 build IndirectRecursion: phony IndirectRecursion.exe
@@ -459,7 +494,7 @@ build nCr: phony nCr.exe
 #############################################
 # Folder: C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug
 
-build all: phony DataStructure01.exe Struct.exe Pointer.exe ParamPassingInFunction.exe ArrayAsParameter.exe TailHead.exe TreeRecursion.exe IndirectRecursion.exe NestedRecursion.exe nCr.exe Array2D.exe
+build all: phony DataStructure01.exe Struct.exe Pointer.exe ParamPassingInFunction.exe ArrayAsParameter.exe TailHead.exe TreeRecursion.exe IndirectRecursion.exe NestedRecursion.exe nCr.exe Array2D.exe BinarySearch.exe
 
 # =============================================================================
 # Built-in targets

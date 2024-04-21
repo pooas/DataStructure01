@@ -404,6 +404,39 @@ build Array2D.exe: CXX_EXECUTABLE_LINKER__Array2D_Debug CMakeFiles/Array2D.dir/A
   TARGET_PDB = Array2D.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ArrayADTC
+
+
+#############################################
+# Order-only phony target for ArrayADTC
+
+build cmake_object_order_depends_target_ArrayADTC: phony || CMakeFiles/ArrayADTC.dir
+
+build CMakeFiles/ArrayADTC.dir/ArrayADTC.cpp.obj: CXX_COMPILER__ArrayADTC_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/ArrayADTC.cpp || cmake_object_order_depends_target_ArrayADTC
+  DEP_FILE = CMakeFiles\ArrayADTC.dir\ArrayADTC.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ArrayADTC.dir
+  OBJECT_FILE_DIR = CMakeFiles\ArrayADTC.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ArrayADTC
+
+
+#############################################
+# Link the executable ArrayADTC.exe
+
+build ArrayADTC.exe: CXX_EXECUTABLE_LINKER__ArrayADTC_Debug CMakeFiles/ArrayADTC.dir/ArrayADTC.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ArrayADTC.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ArrayADTC.exe
+  TARGET_IMPLIB = libArrayADTC.dll.a
+  TARGET_PDB = ArrayADTC.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target RecursionBinarySearch
 
 
@@ -530,6 +563,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Array2D: phony Array2D.exe
 
+build ArrayADTC: phony ArrayADTC.exe
+
 build ArrayAsParameter: phony ArrayAsParameter.exe
 
 build ArrayFunctions: phony ArrayFunctions.exe
@@ -564,7 +599,7 @@ build nCr: phony nCr.exe
 #############################################
 # Folder: C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug
 
-build all: phony DataStructure01.exe Struct.exe Pointer.exe ParamPassingInFunction.exe ArrayAsParameter.exe TailHead.exe TreeRecursion.exe IndirectRecursion.exe NestedRecursion.exe nCr.exe Array2D.exe RecursionBinarySearch.exe BinarySearch.exe ArrayFunctions.exe
+build all: phony DataStructure01.exe Struct.exe Pointer.exe ParamPassingInFunction.exe ArrayAsParameter.exe TailHead.exe TreeRecursion.exe IndirectRecursion.exe NestedRecursion.exe nCr.exe Array2D.exe ArrayADTC.exe RecursionBinarySearch.exe BinarySearch.exe ArrayFunctions.exe
 
 # =============================================================================
 # Built-in targets

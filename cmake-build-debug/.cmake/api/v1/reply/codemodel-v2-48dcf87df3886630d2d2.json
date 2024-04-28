@@ -1,0 +1,186 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DataStructure01",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Array2D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Array2D-Debug-3fd18ba5685ab6e090fd.json",
+					"name" : "Array2D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ArrayADTC::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ArrayADTC-Debug-a7a30865ddb6a3bda2fc.json",
+					"name" : "ArrayADTC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ArrayAsParameter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ArrayAsParameter-Debug-6507e1c7638c99abf90e.json",
+					"name" : "ArrayAsParameter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ArrayFunctions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ArrayFunctions-Debug-c5e9865bc74b1700bd36.json",
+					"name" : "ArrayFunctions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BinarySearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BinarySearch-Debug-a3aa8e95efa0ea3562e8.json",
+					"name" : "BinarySearch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "DataStructure01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DataStructure01-Debug-9b9bb899a3e133d50c81.json",
+					"name" : "DataStructure01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "IndirectRecursion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IndirectRecursion-Debug-b23b2fdd7abe20422e88.json",
+					"name" : "IndirectRecursion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NestedRecursion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NestedRecursion-Debug-b7d9ae25396f89786461.json",
+					"name" : "NestedRecursion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ParamPassingInFunction::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ParamPassingInFunction-Debug-7aa4a9595cd8ecc428c3.json",
+					"name" : "ParamPassingInFunction",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Pointer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pointer-Debug-014df0b07320fbbbb408.json",
+					"name" : "Pointer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RecursionBinarySearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RecursionBinarySearch-Debug-31692c2299f35203d946.json",
+					"name" : "RecursionBinarySearch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Struct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Struct-Debug-61cfadebfefc2dc84acb.json",
+					"name" : "Struct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TailHead::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TailHead-Debug-e23341e3737687f198ed.json",
+					"name" : "TailHead",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TreeRecursion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TreeRecursion-Debug-0041e37ec03194448aa9.json",
+					"name" : "TreeRecursion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nCr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nCr-Debug-57b927670897f0534622.json",
+					"name" : "nCr",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug",
+		"source" : "C:/Users/pooas/CLionProjects/DataStructure01"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

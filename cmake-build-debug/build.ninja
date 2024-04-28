@@ -404,6 +404,39 @@ build Array2D.exe: CXX_EXECUTABLE_LINKER__Array2D_Debug CMakeFiles/Array2D.dir/A
   TARGET_PDB = Array2D.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ReversingArray
+
+
+#############################################
+# Order-only phony target for ReversingArray
+
+build cmake_object_order_depends_target_ReversingArray: phony || CMakeFiles/ReversingArray.dir
+
+build CMakeFiles/ReversingArray.dir/ReversingArray.cpp.obj: CXX_COMPILER__ReversingArray_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/ReversingArray.cpp || cmake_object_order_depends_target_ReversingArray
+  DEP_FILE = CMakeFiles\ReversingArray.dir\ReversingArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ReversingArray.dir
+  OBJECT_FILE_DIR = CMakeFiles\ReversingArray.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ReversingArray
+
+
+#############################################
+# Link the executable ReversingArray.exe
+
+build ReversingArray.exe: CXX_EXECUTABLE_LINKER__ReversingArray_Debug CMakeFiles/ReversingArray.dir/ReversingArray.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ReversingArray.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ReversingArray.exe
+  TARGET_IMPLIB = libReversingArray.dll.a
+  TARGET_PDB = ReversingArray.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ArrayADTC
 
 
@@ -583,6 +616,8 @@ build Pointer: phony Pointer.exe
 
 build RecursionBinarySearch: phony RecursionBinarySearch.exe
 
+build ReversingArray: phony ReversingArray.exe
+
 build Struct: phony Struct.exe
 
 build TailHead: phony TailHead.exe
@@ -599,7 +634,7 @@ build nCr: phony nCr.exe
 #############################################
 # Folder: C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug
 
-build all: phony DataStructure01.exe Struct.exe Pointer.exe ParamPassingInFunction.exe ArrayAsParameter.exe TailHead.exe TreeRecursion.exe IndirectRecursion.exe NestedRecursion.exe nCr.exe Array2D.exe ArrayADTC.exe RecursionBinarySearch.exe BinarySearch.exe ArrayFunctions.exe
+build all: phony DataStructure01.exe Struct.exe Pointer.exe ParamPassingInFunction.exe ArrayAsParameter.exe TailHead.exe TreeRecursion.exe IndirectRecursion.exe NestedRecursion.exe nCr.exe Array2D.exe ReversingArray.exe ArrayADTC.exe RecursionBinarySearch.exe BinarySearch.exe ArrayFunctions.exe
 
 # =============================================================================
 # Built-in targets

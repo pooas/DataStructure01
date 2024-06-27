@@ -404,6 +404,105 @@ build Array2D.exe: CXX_EXECUTABLE_LINKER__Array2D_Debug CMakeFiles/Array2D.dir/A
   TARGET_PDB = Array2D.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ifTwoStringAreAnagram
+
+
+#############################################
+# Order-only phony target for ifTwoStringAreAnagram
+
+build cmake_object_order_depends_target_ifTwoStringAreAnagram: phony || CMakeFiles/ifTwoStringAreAnagram.dir
+
+build CMakeFiles/ifTwoStringAreAnagram.dir/ifTwoStringAreAnagram.cpp.obj: CXX_COMPILER__ifTwoStringAreAnagram_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/ifTwoStringAreAnagram.cpp || cmake_object_order_depends_target_ifTwoStringAreAnagram
+  DEP_FILE = CMakeFiles\ifTwoStringAreAnagram.dir\ifTwoStringAreAnagram.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ifTwoStringAreAnagram.dir
+  OBJECT_FILE_DIR = CMakeFiles\ifTwoStringAreAnagram.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ifTwoStringAreAnagram
+
+
+#############################################
+# Link the executable ifTwoStringAreAnagram.exe
+
+build ifTwoStringAreAnagram.exe: CXX_EXECUTABLE_LINKER__ifTwoStringAreAnagram_Debug CMakeFiles/ifTwoStringAreAnagram.dir/ifTwoStringAreAnagram.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ifTwoStringAreAnagram.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ifTwoStringAreAnagram.exe
+  TARGET_IMPLIB = libifTwoStringAreAnagram.dll.a
+  TARGET_PDB = ifTwoStringAreAnagram.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Matrices01
+
+
+#############################################
+# Order-only phony target for Matrices01
+
+build cmake_object_order_depends_target_Matrices01: phony || CMakeFiles/Matrices01.dir
+
+build CMakeFiles/Matrices01.dir/Matrices/DiagonalMatrix.cpp.obj: CXX_COMPILER__Matrices01_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/Matrices/DiagonalMatrix.cpp || cmake_object_order_depends_target_Matrices01
+  DEP_FILE = CMakeFiles\Matrices01.dir\Matrices\DiagonalMatrix.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Matrices01.dir
+  OBJECT_FILE_DIR = CMakeFiles\Matrices01.dir\Matrices
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Matrices01
+
+
+#############################################
+# Link the executable Matrices01.exe
+
+build Matrices01.exe: CXX_EXECUTABLE_LINKER__Matrices01_Debug CMakeFiles/Matrices01.dir/Matrices/DiagonalMatrix.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Matrices01.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Matrices01.exe
+  TARGET_IMPLIB = libMatrices01.dll.a
+  TARGET_PDB = Matrices01.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target string
+
+
+#############################################
+# Order-only phony target for string
+
+build cmake_object_order_depends_target_string: phony || CMakeFiles/string.dir
+
+build CMakeFiles/string.dir/string.cpp.obj: CXX_COMPILER__string_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/string.cpp || cmake_object_order_depends_target_string
+  DEP_FILE = CMakeFiles\string.dir\string.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\string.dir
+  OBJECT_FILE_DIR = CMakeFiles\string.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string
+
+
+#############################################
+# Link the executable string.exe
+
+build string.exe: CXX_EXECUTABLE_LINKER__string_Debug CMakeFiles/string.dir/string.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\string.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = string.exe
+  TARGET_IMPLIB = libstring.dll.a
+  TARGET_PDB = string.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ReversingArray
 
 
@@ -608,6 +707,8 @@ build DataStructure01: phony DataStructure01.exe
 
 build IndirectRecursion: phony IndirectRecursion.exe
 
+build Matrices01: phony Matrices01.exe
+
 build NestedRecursion: phony NestedRecursion.exe
 
 build ParamPassingInFunction: phony ParamPassingInFunction.exe
@@ -624,7 +725,11 @@ build TailHead: phony TailHead.exe
 
 build TreeRecursion: phony TreeRecursion.exe
 
+build ifTwoStringAreAnagram: phony ifTwoStringAreAnagram.exe
+
 build nCr: phony nCr.exe
+
+build string: phony string.exe
 
 # =============================================================================
 # Folder targets.
@@ -634,7 +739,7 @@ build nCr: phony nCr.exe
 #############################################
 # Folder: C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug
 
-build all: phony DataStructure01.exe Struct.exe Pointer.exe ParamPassingInFunction.exe ArrayAsParameter.exe TailHead.exe TreeRecursion.exe IndirectRecursion.exe NestedRecursion.exe nCr.exe Array2D.exe ReversingArray.exe ArrayADTC.exe RecursionBinarySearch.exe BinarySearch.exe ArrayFunctions.exe
+build all: phony DataStructure01.exe Struct.exe Pointer.exe ParamPassingInFunction.exe ArrayAsParameter.exe TailHead.exe TreeRecursion.exe IndirectRecursion.exe NestedRecursion.exe nCr.exe Array2D.exe ifTwoStringAreAnagram.exe Matrices01.exe string.exe ReversingArray.exe ArrayADTC.exe RecursionBinarySearch.exe BinarySearch.exe ArrayFunctions.exe
 
 # =============================================================================
 # Built-in targets

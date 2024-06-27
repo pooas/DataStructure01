@@ -9,6 +9,9 @@ C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/Indire
 C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/NestedRecursion.dir
 C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/nCr.dir
 C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/Array2D.dir
+C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/ifTwoStringAreAnagram.dir
+C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/Matrices01.dir
+C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/string.dir
 C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/ReversingArray.dir
 C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/ArrayADTC.dir
 C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/RecursionBinarySearch.dir

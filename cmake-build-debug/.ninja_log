@@ -12,6 +12,7 @@
 2	287	7332429094797495	CMakeFiles/nCr.dir/nCr.cpp.obj	9d1873381f44aa47
 288	384	7332429095748144	nCr.exe	a1f40fa75fbdd962
 265	392	7318740112373578	DataStructure05.exe	2db58746dfe6e838
+2	272	7371318957961149	CMakeFiles/ReversingArray.dir/ReversingArray.cpp.obj	c5f2cb7ff05305bc
 3	524	7323665830275022	CMakeFiles/DataStructure06.dir/TailHead.cpp.obj	79f26b38d69a5de7
 524	668	7323665831676972	DataStructure06.exe	aae18f9c7a60894e
 3	297	7327457001065004	CMakeFiles/DataStructure07.dir/TreeRecursion.cpp.obj	9727b3ea63eb9640
@@ -27,5 +28,12 @@
 4	329	7341097723825829	CMakeFiles/BinarySearch.dir/BinarySearch.cpp.obj	e41f669d32da5b64
 329	436	7341097724885523	BinarySearch.exe	d0d59912791f15c6
 15	273	7360116171386361	CMakeFiles/ArrayADTC.dir/ArrayADTC.cpp.obj	f64fdbe666381f41
-1	380	7360117056915360	CMakeFiles/ReversingArray.dir/ReversingArray.cpp.obj	c5f2cb7ff05305bc
-381	494	7360117057972420	ReversingArray.exe	e382bcc4bb6549cd
+3	372	7371355204061264	CMakeFiles/string.dir/string.cpp.obj	7607005e21be95c4
+272	373	7371318958941106	ReversingArray.exe	e382bcc4bb6549cd
+372	468	7371355204996747	string.exe	5f3a19fa22450384
+1	467	7411159725023953	CMakeFiles/Matrices01.dir/Matrices/DiagonalMatrix.cpp.obj	12b556f1ed895a03
+467	597	7411159726306700	Matrices01.exe	a9803e810f1b05c1
+2	68	7411160685836367	CMakeFiles/Matrices01.dir/Matrices/DiagonalMatrix.cpp.obj	12b556f1ed895a03
+68	163	7411160686743316	Matrices01.exe	a9803e810f1b05c1
+2	70	7411163178069897	CMakeFiles/Matrices01.dir/Matrices/DiagonalMatrix.cpp.obj	12b556f1ed895a03
+71	179	7411163179125925	Matrices01.exe	a9803e810f1b05c1

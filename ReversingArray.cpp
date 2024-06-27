@@ -82,7 +82,39 @@ int Delete(Array *arr, int index)
     return 0;
 }
 
-int linearSearch(Array *arr, int key){}
+int linearSearch(Array *arr, int key)
+{
+    for (int i = 0; i < arr->length; ++i)
+    {
+        if (arr->A[i] == key)
+        {
+            swap(&arr->A[i], &arr->A[0]);
+            return i;
+        }
+    }
+    return -1;
+}
+
+int binarySrearch(Array *arr, int key)
+{
+    int l,h,mid;
+    l = 0;
+    h = arr->length -1;
+
+    while (l <= h)
+    {
+        mid = (h+l)/2;
+
+        if (arr->A[mid] == key)
+            return mid;
+        else if (arr->A[mid] > key)
+        {
+            h = mid - 1;
+        } else
+            l = mid + 1;
+    }
+}
+
 
 int main(){
 
@@ -90,8 +122,10 @@ int main(){
 
     reversV1(&arr);
 
-    for (int i = 0; i < arr.length; ++i) {
-        std::cout << arr.A[i] << '\n';
-    }
+    std::cout << linearSearch(&arr, 1) << std::endl;
+
+//    for (int i = 0; i < arr.length; ++i) {
+//        std::cout << arr.A[i] << '\n';
+//    }
     return 0;
 }

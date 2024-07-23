@@ -21,13 +21,9 @@ int RBinarySearch(int l,int h,int key)
         else if(key < arr[mid])
             return RBinarySearch(l, mid-1, key);
     }
-
-
 }
 
 int main(){
-
-
 
     return 0;
 }

@@ -11,6 +11,8 @@ C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/nCr.di
 C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/Array2D.dir
 C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/ifTwoStringAreAnagram.dir
 C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/Matrices01.dir
+C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/Matrices02.dir
+C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/Node01.dir
 C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/string.dir
 C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/ReversingArray.dir
 C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug/CMakeFiles/ArrayADTC.dir

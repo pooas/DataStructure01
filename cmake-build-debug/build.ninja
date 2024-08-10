@@ -470,6 +470,72 @@ build Matrices01.exe: CXX_EXECUTABLE_LINKER__Matrices01_Debug CMakeFiles/Matrice
   TARGET_PDB = Matrices01.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Matrices02
+
+
+#############################################
+# Order-only phony target for Matrices02
+
+build cmake_object_order_depends_target_Matrices02: phony || CMakeFiles/Matrices02.dir
+
+build CMakeFiles/Matrices02.dir/Matrices/LowerTriangularMatrix.cpp.obj: CXX_COMPILER__Matrices02_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/Matrices/LowerTriangularMatrix.cpp || cmake_object_order_depends_target_Matrices02
+  DEP_FILE = CMakeFiles\Matrices02.dir\Matrices\LowerTriangularMatrix.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Matrices02.dir
+  OBJECT_FILE_DIR = CMakeFiles\Matrices02.dir\Matrices
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Matrices02
+
+
+#############################################
+# Link the executable Matrices02.exe
+
+build Matrices02.exe: CXX_EXECUTABLE_LINKER__Matrices02_Debug CMakeFiles/Matrices02.dir/Matrices/LowerTriangularMatrix.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Matrices02.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Matrices02.exe
+  TARGET_IMPLIB = libMatrices02.dll.a
+  TARGET_PDB = Matrices02.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Node01
+
+
+#############################################
+# Order-only phony target for Node01
+
+build cmake_object_order_depends_target_Node01: phony || CMakeFiles/Node01.dir
+
+build CMakeFiles/Node01.dir/Linked_list/Node.cpp.obj: CXX_COMPILER__Node01_unscanned_Debug C$:/Users/pooas/CLionProjects/DataStructure01/Linked_list/Node.cpp || cmake_object_order_depends_target_Node01
+  DEP_FILE = CMakeFiles\Node01.dir\Linked_list\Node.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Node01.dir
+  OBJECT_FILE_DIR = CMakeFiles\Node01.dir\Linked_list
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Node01
+
+
+#############################################
+# Link the executable Node01.exe
+
+build Node01.exe: CXX_EXECUTABLE_LINKER__Node01_Debug CMakeFiles/Node01.dir/Linked_list/Node.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Node01.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Node01.exe
+  TARGET_IMPLIB = libNode01.dll.a
+  TARGET_PDB = Node01.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target string
 
 
@@ -709,7 +775,11 @@ build IndirectRecursion: phony IndirectRecursion.exe
 
 build Matrices01: phony Matrices01.exe
 
+build Matrices02: phony Matrices02.exe
+
 build NestedRecursion: phony NestedRecursion.exe
+
+build Node01: phony Node01.exe
 
 build ParamPassingInFunction: phony ParamPassingInFunction.exe
 
@@ -739,7 +809,7 @@ build string: phony string.exe
 #############################################
 # Folder: C:/Users/pooas/CLionProjects/DataStructure01/cmake-build-debug
 
-build all: phony DataStructure01.exe Struct.exe Pointer.exe ParamPassingInFunction.exe ArrayAsParameter.exe TailHead.exe TreeRecursion.exe IndirectRecursion.exe NestedRecursion.exe nCr.exe Array2D.exe ifTwoStringAreAnagram.exe Matrices01.exe string.exe ReversingArray.exe ArrayADTC.exe RecursionBinarySearch.exe BinarySearch.exe ArrayFunctions.exe
+build all: phony DataStructure01.exe Struct.exe Pointer.exe ParamPassingInFunction.exe ArrayAsParameter.exe TailHead.exe TreeRecursion.exe IndirectRecursion.exe NestedRecursion.exe nCr.exe Array2D.exe ifTwoStringAreAnagram.exe Matrices01.exe Matrices02.exe Node01.exe string.exe ReversingArray.exe ArrayADTC.exe RecursionBinarySearch.exe BinarySearch.exe ArrayFunctions.exe
 
 # =============================================================================
 # Built-in targets
